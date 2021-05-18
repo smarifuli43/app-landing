@@ -46,6 +46,7 @@
         margin-bottom: 20px;
     }
     h3{
+        color: #242f51;
         font-size: 20px;
         margin-bottom: 10px;
     }
@@ -528,17 +529,90 @@
         font-weight: 500;
     }
     
+/* ======================Testimonial==================== */
+.testimonial .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.client-map img{
+    width:105%;
+    margin-top: 120px;
+}
+.testimonial-right{
+padding: 40px 40px 80px 20px;
+}
+.testimonial-right p{
+    margin-bottom: 30px;
+}
+.review-icon{
+    margin-bottom:10px;
+}
+.review-icon i{
+    color:#ffcc00;
+    font-size: 18px;
+}
+.review-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.review-footer-left{
+    display: flex;
+    align-items: center;
+}
+.client-img img{
+    margin-top: 5px;
+    width:60px;
+    height:60px;
+}
+.client-name{
+    margin-left: 25px;
+}
+.review-footer-left h3,
+.review-footer-left p{
+    margin:0;
+}
+.review-footer-left h3{
+    font-size: 18px;
+}
+.review-footer-right{
+    display: flex;
+    align-items: center;
+}
+.review-footer-right i{
+    font-size: 16px;
+    color:var(--clr-p);
+}
+.arrow{
+    background:#dfdbf39a;
+    padding:20px;
+    width:20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.arrow-separator{
+    background: #dddddd96;
+    height: 20px;
+    width: 1px;
+   margin: 0 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ========================qna====================== */
+.qna-top{
+    text-align: center;
+    padding: 0 200px;
+    margin-bottom: 50px;
+}
+.qna-body{
+    width:70%;
+    margin:auto
+}
+.qna-row{
+    background: #f5f7fa;
+    padding: 30px;
+    margin-bottom:20px;
+}

@@ -602,6 +602,9 @@ padding: 40px 40px 80px 20px;
 }
 
 /* ========================qna====================== */
+section.qna{
+    margin-bottom: 20px;
+}
 .qna-top{
     text-align: center;
     padding: 0 200px;
@@ -613,6 +616,68 @@ padding: 40px 40px 80px 20px;
 }
 .qna-row{
     background: #f5f7fa;
-    padding: 30px;
+    padding: 10px 25px;
     margin-bottom:20px;
 }
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question i{
+    font-size:15px;
+}
+.question h3{
+    font-size:18px;
+}
+.answer{
+    display: none;
+}
+.qna-body .qna-row:first-child .answer{
+    display: block;
+}
+.qna{
+    border-bottom: 1px solid #bebebe50;
+    padding-bottom:60px;
+}
+
+/* ===================store=================== */
+section.store{
+    padding: 0;
+    margin: 0;
+}
+.store .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.store-right img{
+    width: 100%;
+    height: 360px;
+    z-index: 100;
+}
+.store-left {
+    margin-top: -60px;
+}
+.store-left p{
+margin-bottom: 30px;
+}
+.store-button img{
+    width: 150px;
+}
+.store-button img:first-child{
+    margin-right: 20px;
+}
+
+/* =======================Footer=================== */
+footer{
+    margin-top: -50px;
+    min-height:400px;
+    background-color:#09142e;
+}
+
+
+
+
+
+
